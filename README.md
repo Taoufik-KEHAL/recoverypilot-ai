@@ -12,6 +12,8 @@ This repository contains the initial professional foundation:
 - FastAPI application in `apps/api`
 - GitHub issue and pull request templates
 - GitHub Actions CI for formatting, linting, type checking, and tests
+- Dependabot dependency update automation for GitHub Actions and Python packages
+- CODEOWNERS-backed review ownership for core project areas
 - Product, architecture, and ADR documentation
 
 ## Tech Stack
@@ -77,6 +79,7 @@ RecoveryPilot AI uses a professional GitHub workflow:
 - pull requests for every change
 - GitHub Issues and Milestones for planning
 - GitHub Actions for CI
+- Dependabot for scheduled dependency maintenance
+- CODEOWNERS for review routing
 - conventional commits
 - no direct commits to `main`
-
