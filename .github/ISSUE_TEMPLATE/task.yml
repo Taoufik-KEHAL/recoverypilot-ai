@@ -1,0 +1,20 @@
+name: Task
+description: Track implementation, documentation, or maintenance work.
+title: "task: "
+labels: ["task"]
+body:
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What needs to be done?
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      description: What confirms this task is complete?
+    validations:
+      required: true
+
