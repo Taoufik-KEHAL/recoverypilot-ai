@@ -1,0 +1,8 @@
+# Default review owner for all repository changes.
+* @taoufikkehal
+
+# Keep core project areas explicitly owned as the repository grows.
+/.github/ @taoufikkehal
+/apps/api/ @taoufikkehal
+/packages/assistant_core/ @taoufikkehal
+/docs/ @taoufikkehal

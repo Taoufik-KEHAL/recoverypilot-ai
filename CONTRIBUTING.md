@@ -28,3 +28,17 @@ uv run mypy apps/api/src packages/assistant_core/src
 uv run pytest
 ```
 
+## Pull Requests
+
+Pull requests should include:
+
+- a concise summary of the change
+- a linked issue when one exists
+- the checks that were run locally
+- any user, data, or operational risk reviewers should consider
+
+## Repository Automation
+
+- CI runs on every pull request and every push to `main`.
+- Dependabot opens scheduled dependency update pull requests.
+- CODEOWNERS routes review requests for core project areas.
