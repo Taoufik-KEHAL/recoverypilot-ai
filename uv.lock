@@ -1094,7 +1094,7 @@ requires-dist = [
     { name = "fastapi", specifier = ">=0.115.0" },
     { name = "pydantic-settings", specifier = ">=2.6.0" },
     { name = "recoverypilot-assistant", editable = "packages/assistant_core" },
-    { name = "uvicorn", extras = ["standard"], specifier = ">=0.30.0" },
+    { name = "uvicorn", extras = ["standard"], specifier = ">=0.47.0" },
 ]
 
 [[package]]
